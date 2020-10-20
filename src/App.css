@@ -3,16 +3,16 @@
 }
 
 section.visor{
-  margin-left:200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: 5px solid black;
   color: black;
   grid-area: bx1;
  }
 
 section.botoes{
-  margin-left: 200px;
-  margin-right:200px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: 5px solid black;
   grid-area: bx2;
   display: grid;
@@ -39,7 +39,7 @@ section.memoria{
 
 main{
   display: grid;
-  grid-template-areas: "bx1 "
-                       "bx2 "
+  grid-template-areas: "bx1 bx3"
+                       "bx2 bx3"
 }
 

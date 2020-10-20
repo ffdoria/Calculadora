@@ -211,10 +211,10 @@ class App extends Component{
             </section>
             <section class="botoes">
               <div class= "but2">
-              {/*<Button class= "mc" text="MC" click={() => this.apaMem()}/> 
+              <Button class= "mc" text="MC" click={() => this.apaMem()}/> 
               <Button class= "mr" text="MR" click={() => this.recMem()}/>  
               <Button class= "mmais" text="M+" click={() => this.somMem()}/>  
-    <Button class= "ms" text="MS" click={() => this.regMem()}/>*/}
+              <Button class= "ms" text="MS" click={() => this.regMem()}/>
               <Button class= "set" text="7" click={() => this.addNumber("7")}/>
               <Button class= "oit" text="8" click={() => this.addNumber("8")}/>
               <Button class= "nov" text="9" click={() => this.addNumber("9")}/>
@@ -238,7 +238,6 @@ class App extends Component{
               </div>
               
             </section>
-          {/*}
             <section class="memoria">
               <h1> Memoria </h1>
               {
@@ -252,7 +251,6 @@ class App extends Component{
                 )
               }
             </section>
-            */}
           </main>
         </article>
       </div>
